@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <span class="material-symbols-rounded" id="burguer" onclick="clickMenu()">
+
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">
             menu
-        </span>
+            </span>
+
         <menu id="itens">
             <ul>
                 <li><a href="">Opção 1</a></li>
@@ -42,6 +44,7 @@
                 itens.style.display = 'none'
             } else {
                 itens.style.display = 'block'
+
             }
             
         }
